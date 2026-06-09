@@ -1,7 +1,9 @@
 //your JS code here. If required.
 let elem = document.querySelector("p")
 function addCount(){
-	let count = parseInt(elem.textContent)+1
+	let count = parseInt(elem.textContent)
+	alert(""+count)
+	count++;
 	count=count+"";
 	elem.textContent=count;
 }
